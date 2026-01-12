@@ -1,7 +1,5 @@
 # SMS Spam Detection Using Deep Learning (Neural Networks)
 
-![Confusion Matrix](./images/confusion_matrix.JPG)
-
 ## Project Overview
 
 This project implements an **end-to-end SMS spam detection system** using **deep learning and natural language processing (NLP)** techniques. The system automatically classifies text messages as **Spam** or **Ham (legitimate)**, helping to reduce unsolicited messages and improve communication reliability.
@@ -107,9 +105,8 @@ This highlights the importance of evaluating beyond accuracy alone.
 
 Shows consistent learning across epochs with minimal overfitting, indicating strong generalization.
 
-<p align="center">
-  <img src="images/training_validation_accuracy.JPG" width="600"/>
-</p>
+![Training vs Validation Accuracy](images/training_validation_accuracy.JPG)
+
 
 ---
 
@@ -117,9 +114,7 @@ Shows consistent learning across epochs with minimal overfitting, indicating str
 
 Demonstrates effective loss minimization and stable convergence during training.
 
-<p align="center">
-  <img src="images/training_validation_loss.JPG" width="600"/>
-</p>
+![Training vs Validation Loss](images/training_validation_loss.JPG)
 
 ---
 
@@ -127,9 +122,7 @@ Demonstrates effective loss minimization and stable convergence during training.
 
 Provides insight into correct and incorrect classifications, highlighting class imbalance effects and prediction bias.
 
-<p align="center">
-  <img src="images/confusion_matrix.JPG" width="500"/>
-</p>
+![Confusion Matrix](images/confusion_matrix.JPG)
 
 ---
 
@@ -137,9 +130,7 @@ Provides insight into correct and incorrect classifications, highlighting class 
 
 Displays network depth, layer types, and parameter counts, offering transparency into model complexity.
 
-<p align="center">
-  <img src="images/model_summary.JPG" width="600"/>
-</p>
+![Model Summary](images/model_summary.JPG)
 
 ---
 
